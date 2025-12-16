@@ -1,0 +1,25 @@
+{
+    "name": "gz11",
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "gz",
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+            "ms-python.python",
+            "ms-vscode.cpptools",
+            "twxs.cmake",
+            "redhat.vscode-xml",
+            "redhat.vscode-yaml",
+            "albert.tabout",
+            "actboy168.tasks",
+            "streetsidesoftware.code-spell-checker",
+            "mhutchie.git-graph",
+            "dlech.chmod",
+            "smilerobotics.urdf"
+        ],
+        "settings": {}
+      }
+    }
+  }

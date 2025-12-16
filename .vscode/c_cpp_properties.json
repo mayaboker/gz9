@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/gazebo-11",
+                "/usr/include/gazebo-11/gazebo",
+                "/usr/include/gazebo-11/gazebo/transport",
+                "/usr/include/gazebo-11/gazebo/common",
+                "/usr/include/ignition/math6",
+                "/usr/include/ignition/**",
+                "/usr/include/sdformat-9.7"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
