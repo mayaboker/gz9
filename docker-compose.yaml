@@ -2,7 +2,7 @@ services:
   gz:
     build: 
       context: .
-      dockerfile: .devcontainer/Dockerfile
+      dockerfile: .devcontainer/Dockerfile.9
     user: "user"
     volumes:
       - .:/workspace:cached
